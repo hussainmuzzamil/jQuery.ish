@@ -1,4 +1,4 @@
-jQuery.ish
+jQuery.ish 0.1
 =========
 
 A baseline feature set and jQuery compatible syntax for modern browsers. Use it as part of your toolset for page performance where the full version of jQuery is not desired.
