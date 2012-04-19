@@ -14,3 +14,8 @@ This project is not to:
 
 - create a full featured jQuery alternative, checkout the zepto project if that is what you need
 - create a plugin that is more than 1k minified and gzipped
+
+
+Dependency
+
+- match querySelectorAll browser support: https://developer.mozilla.org/en/DOM/Document.querySelectorAll
