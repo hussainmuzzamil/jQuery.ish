@@ -12,7 +12,7 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 ## This project is not to:
 
-- create a full featured jQuery alternative, checkout the zepto project if that is what you need
+- create a full featured jQuery alternative, checkout the [zepto][2] project if that is what you need
 - create a plugin that is more than 1k minified and gzipped
 
 ### Code Size
@@ -33,3 +33,4 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 
 [1]: https://developer.mozilla.org/en/DOM/Document.querySelectorAll#Browser_compatibility
+[2]: http://zeptojs.com
