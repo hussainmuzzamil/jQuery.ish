@@ -1,3 +1,4 @@
+#![Jquery logo][logo].ish
 jQuery.ish 0.1
 =========
 
@@ -23,6 +24,9 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 ### Dependency
 
 - match [querySelectorAll browser support][1]
+
+
+[logo]: http://static.jquery.com/files/rocker/images/logo_jquery_215x53.gif
 
 
 
