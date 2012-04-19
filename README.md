@@ -17,8 +17,8 @@ This project is not to:
 
 Code Size
 
-Original Size:  1.31KB (498 bytes gzipped)
-Compiled Size:	969 bytes (405 bytes gzipped)
+- Original Size:  1.31KB (498 bytes gzipped)
+- Compiled Size:	969 bytes (405 bytes gzipped)
 
 Dependency
 
