@@ -29,8 +29,12 @@ $.fn = {
 		return false
 	},
 	addClass : function(cl){
-		for(var i = 0; i < $.fn.elm.length; i++)
-			$.fn.elm[i].className = ($.fn.elm[i].className + " " + cl).replace(/^\s\s*/, '').replace(/\s\s*$/, '')
+		for(var i = 0; i < $.fn.elm.length; i++){		
+			var oc = " " + $.fn.elm[i].className + " "
+			if (!oc.indexOf(" " + cl + " ") > -1) {
+				$.fn.elm[i].className = ($.fn.elm[i].className + " " + cl).replace(/^\s\s*/,'').replace(/\s\s*$/,'')
+			}
+		}
 		return this
 	},
 	toggleClass : function(cl){
