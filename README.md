@@ -22,4 +22,7 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 ### Dependency
 
-- match querySelectorAll browser support: https://developer.mozilla.org/en/DOM/Document.querySelectorAll
+- match [querySelectorAll browser support][sel]
+
+
+[sel]: https://developer.mozilla.org/en/DOM/Document.querySelectorAll
