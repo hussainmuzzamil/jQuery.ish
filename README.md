@@ -5,7 +5,7 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 ## This project is to:
 
-- provide a tiny jQuery feature set for use on modern browsers, less than 1k minified and gizpped
+- provide a *tiny* jQuery feature set for use on modern browsers, less than 1k minified and gizpped
 - offer jQuery compatible syntax
 - offer an baseline set of features that can be extended with native javascript methods
 
@@ -22,7 +22,14 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 ### Dependency
 
-- match [querySelectorAll browser support][sel]
+- match [querySelectorAll browser support][1]
 
 
-[sel]: https://developer.mozilla.org/en/DOM/Document.querySelectorAll
+
+
+
+
+
+
+
+[1]: https://developer.mozilla.org/en/DOM/Document.querySelectorAll#Browser_compatibility
