@@ -1,7 +1,7 @@
 jqueryish
 =========
 
-jQuery compatible syntax to modify css classes on modern mobile browsers. 
+jQuery compatible syntax to modify css classes on modern mobile browsers. Use it as part of your toolset for page download performance.
 
 This project is to:
 
