@@ -5,7 +5,7 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 This project is to:
 
-- provide a tiny jQuery feature set for use on modern browsers, less than 1k minified and gizpped
+- provide a tiny jQuery feature set for use on modern browsers, less than 1k minified and gizpped (currently 412 bytes)
 - offer jQuery compatible syntax
 - offer an baseline set of features that can be extended with native javascript methods
 
