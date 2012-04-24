@@ -8,7 +8,7 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 - include the parts of jQuery that we can't live without and use native js methods for everything else
 - download size of less than 1k minified and gzipped
 - offer 100% jQuery compatible syntax
-- full suport for jQuery style chaining
+- full support for jQuery style chaining
 
 ## This project is NOT to:
 
@@ -23,10 +23,6 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 ## Browser Support and Dependancy
 
 - match [querySelectorAll][1] browser support
-
-
-
-
 
 
 
