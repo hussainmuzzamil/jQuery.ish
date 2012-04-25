@@ -50,7 +50,7 @@ $.fn = {
 		for ( key in obj ) {}
 
 		return key === undefined || hasOwn.call( obj, key );
-	},
+	}
 };
 $.fn.init.prototype = $.fn;
 
