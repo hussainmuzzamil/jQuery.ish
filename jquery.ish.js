@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var $ = function(id) {
     var o = new $.fn.init(id).elm,
         i;
@@ -9,15 +8,6 @@ var $ = function(id) {
     }
     return o;
 };
-=======
-//jQuery.ish 0.1
-var $ = function(id){
-	var o =  new $.fn.init(id).elm				
-	for(key in $.fn)
-		o[key] = $.fn[key]
-	return o
-}
->>>>>>> release version
 $.fn = {
     init: function(el) {
         if (typeof el == 'string') {
