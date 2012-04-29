@@ -21,8 +21,8 @@ $.fn = {
     },
     hasClass: function(cl) {
         var i;
-        for (i = 0; i < $.fn.elm.length; i++) {
-            var objCl = $.fn.elm[i].className.split(' '),
+        for (i = 0; i < this.length; i++) {
+            var objCl = this[i].className.split(' '),
                 ii;
             for (ii in objCl) {
                 if (objCl[ii] == cl) {
@@ -34,17 +34,17 @@ $.fn = {
     },
     addClass: function(cl) {
         var i;
-        for (i = 0; i < $.fn.elm.length; i++) {
-            var oc = " " + $.fn.elm[i].className + " ";
+        for (i = 0; i < this.length; i++) {
+            var oc = " " + this[i].className + " ";
             if (oc.indexOf(" " + cl + " ") == -1) {
-                $.fn.elm[i].className = ($.fn.elm[i].className + " " + cl).replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+                this[i].className = (this[i].className + " " + cl).replace(/^\s\s*/, '').replace(/\s\s*$/, '');
             }
         }
         return this;
     },
     toggleClass: function(cl) {
         var i;
-        for (i = 0; i < $.fn.elm.length; i++) {
+        for (i = 0; i < this.length; i++) {
             if (this.hasClass(cl)) {
                 this.removeClass(cl);
             } else {
@@ -55,15 +55,40 @@ $.fn = {
     },
     removeClass: function(cl) {
         var i;
-        for (i = 0; i < $.fn.elm.length; i++) {
-            var objCl = $.fn.elm[i].className.split(' '),
+        for (i = 0; i < this.length; i++) {
+            var objCl = this[i].className.split(' '),
                 ii;
             for (ii = 0; ii < objCl.length; ii++) {
                 if (objCl[ii] == cl) {
                     delete(objCl[ii]);
                 }
             }
-            $.fn.elm[i].className = objCl.join(' ').replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+            this[i].className = objCl.join(' ').replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+        }
+        return this;
+    },
+    toggle: function() {
+    	var i;
+        for (i = 0; i < this.length; i++) {
+	       	if(window.getComputedStyle(this[i]).display == 'none'){
+				this[i].style.display = 'block';
+			} else {
+				this[i].style.display = 'none';
+			}  
+        }
+        return this;
+    },
+    hide: function() {
+		var i;
+        for (i = 0; i < this.length; i++) {
+        	this[i].style.display = 'none'; 
+        }
+        return this;
+    },
+    show: function() {
+		var i;
+        for (i = 0; i < this.length; i++) {
+	       	this[i].style.display = 'block'; 
         }
         return this;
     }
