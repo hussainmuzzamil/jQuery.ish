@@ -24,7 +24,16 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 - match [querySelectorAll][1] browser support
 
+## Supported Methods
 
+- hasClass()
+- addClass()
+- toggleClass()
+- removeClass()
+- addClass()
+- toggle()
+- show()
+- hide()
 
 
 
