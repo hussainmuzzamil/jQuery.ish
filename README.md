@@ -30,7 +30,6 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 - addClass()
 - toggleClass()
 - removeClass()
-- addClass()
 - toggle()
 - show()
 - hide()
