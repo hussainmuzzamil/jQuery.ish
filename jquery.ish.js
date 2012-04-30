@@ -79,14 +79,14 @@ $.fn = {
         return this;
     },
     hide: function() {
-		var i;
+	var i;
         for (i = 0; i < this.length; i++) {
         	this[i].style.display = 'none'; 
         }
         return this;
     },
     show: function() {
-		var i;
+	var i;
         for (i = 0; i < this.length; i++) {
 	       	this[i].style.display = 'block'; 
         }
