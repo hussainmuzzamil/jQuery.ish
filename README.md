@@ -22,7 +22,10 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 ## Browser Support and Dependancy
 
-- match [querySelectorAll][1] browser support
+Browser support dependencies:
+
+- [querySelectorAll][1]
+- [getComputedStyle][3]
 
 ## Supported Methods
 
@@ -39,3 +42,4 @@ A baseline feature set and jQuery compatible syntax for modern browsers. Use it 
 
 [1]: https://developer.mozilla.org/en/DOM/Document.querySelectorAll#Browser_compatibility
 [2]: http://zeptojs.com
+[3]: https://developer.mozilla.org/en/DOM/window.getComputedStyle
