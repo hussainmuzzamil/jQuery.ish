@@ -71,10 +71,10 @@ $.fn = {
     	var i;
         for (i = 0; i < this.length; i++) {
 	       	if(window.getComputedStyle(this[i]).display == 'none'){
-				this[i].style.display = 'block';
-			} else {
-				this[i].style.display = 'none';
-			}  
+			this[i].style.display = 'block';
+		} else {
+			this[i].style.display = 'none';
+		}  
         }
         return this;
     },
